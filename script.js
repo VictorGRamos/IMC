@@ -31,7 +31,7 @@ function imc () {
         }
 
         resultado.textContent = `Olá, ${nome}! Com ${peso}kg e ${altura}m, seu IMC é ${valorIMC}. Atualmente, você está ${classificacao}
-        Procure manter seu peso entre ${pesominimo} até ${pesomaximo}`;
+        Procure manter seu peso entre ${pesominimo}kg até ${pesomaximo}kg`;
 
     }else {
         resultado.textContent = 'Para calcular o seu IMC , preencha todos os campos.';
